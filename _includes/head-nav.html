@@ -1,0 +1,28 @@
+<header class="site-header">
+  <a class="site-title" href="{{ site.baseurl }}/">
+        <h1><span>cubicle</span> ux</h1>
+        <h3>inspiring the enterprise</h3>
+  </a>
+</header>
+<nav class="site-nav">
+      <ul class="nav">
+          <li><a class="page-link" href="{{ site.baseurl }}/">Latest</a></li>
+        {% for page in site.pages %}
+          {% if page.title %}
+          <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+          <li><a class="page-link contribute" href="https://github.com/cubicleux/cubicleux.github.io/issues/7">Contribute</a></li>
+      </ul>
+</nav>
+<nav class="tag-list">
+<ul class="tags">
+{% for tag in site.tags %}
+  {% assign t = tag | first %}
+  {% assign posts = tag | last %}
+  <li>{{t | downcase | replace:" ","-" }} <small>{{ posts | size }}</small></li>
+{% endfor %}
+</ul>
+</nav>
+
+
