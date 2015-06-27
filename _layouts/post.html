@@ -9,6 +9,16 @@ layout: default
   </header>
 
   <article class="post-content">
+
+      {% if page.screenshot %}<a href="{{site.baseurl}}/img/screens/{{ page.screenshot }}"><img src="{{site.baseurl}}/img/screens/{{ page.screenshot }}" alt="{{ page.title }}"/></a>
+      {% endif %}
+
+      {% if page.alt-screenshots %}
+          {% for shot in page.alt-screenshots %}
+      <a href="{{site.baseurl}}/img/screens/{{ shot }}"><img src="{{site.baseurl}}/img/screens/{{ shot }}" width="50%" alt="{{ page.title }}"/></a>
+          {% endfor %}
+      {% endif %}
+
     {{ content }}
   </article>
 
