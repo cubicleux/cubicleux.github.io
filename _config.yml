@@ -9,3 +9,4 @@ github_username:  cubicleux
 
 # Build settings
 markdown: kramdown
+paginate: 8
