@@ -8,5 +8,8 @@ url: "http://cubicleux.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  cubicleux
 
+permalink: /:categories/:title/
+
 # Build settings
 markdown: kramdown
+
