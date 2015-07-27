@@ -15,4 +15,4 @@ Introduce yourself over [here](https://github.com/cubicleux/cubicleux.github.io/
 - Fork this repo & submit a pull request with your additions ([Guide on how to contribute to Jekyll Sites] (http://designopen.org/articles/how-to-contribute/)).
 - Create an [issue](https://github.com/cubicleux/cubicleux.github.io/issues/new) with your suggested link or images.
 
-To keep images consistent as possible, please use 1024x768 resolution when creating screenshots. [Paparazzi](https://derailer.org/paparazzi/) (Mac only) is a great tool for capturing full-page screenshots. 
+Look at the [contribution guidelines](http://cubicleux.github.io/contribute.html) on the site for how to prepare and snap your inspiration.
