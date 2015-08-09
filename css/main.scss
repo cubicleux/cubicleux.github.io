@@ -18,7 +18,7 @@ $background-color: #CAD3D8;
 $brand-color:      #F2784B; //depreciated
 $alt-color:        #ECECEC; //depreciated
 $link-color:       $text-color;
-$link-hover-color: lighten($link-color, 30%);
+$link-hover-color: #E24F14;//lighten($link-color, 30%);
 
 
 $grey-color:       #828282;
@@ -27,7 +27,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
 $content-width:    800px;
-$sidebar-width:    190px;
+$sidebar-width:    200px;
 
 $on-palm:          600px;
 $on-laptop:        800px;

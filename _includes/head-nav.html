@@ -20,12 +20,22 @@
             {% endif %}
         {% endfor %}-->
 
-        <li><a class="page-link {{current}}" href="{{site.baseurl}}">Latest</a>
+        <li><a class="page-link {{current}}" href="{{site.baseurl}}/">Latest</a>
         </li>
-        <li><a class="page-link contribute" href="https://github.com/cubicleux/cubicleux.github.io/issues/7">Contribute</a>
+        <!--TODO Add Product Page <li><a class="page-link {{current}}" href="#">Product</a>-->
+        </li>
+        <li>
+            <a class="page-link contribute" href="https://github.com/cubicleux/cubicleux.github.io/issues/7">Contribute</a>
+        </li>
+        <li>
+            <a class="page-link about" href="https://github.com/cubicleux/cubicleux.github.io/">About</a>
         </li>
     </ul>
 </nav>
+
+<p class="tagline">{{ site.description }}</p>
+
+<!-- TODO Tags
 <nav class="tag-list">
     <hr>
     <ul class="tags">
@@ -34,4 +44,4 @@
         </li>
         {% endfor %}
     </ul>
-</nav>
+</nav>-->
