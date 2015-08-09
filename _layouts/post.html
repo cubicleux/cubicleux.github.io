@@ -21,7 +21,7 @@ layout: default
         </p>
     </header>
     {% if page.alt-screenshots %}
-        <h4>Other States</h4>
+        <h4 class="alt">Other States</h4>
         {% for shot in page.alt-screenshots %}
         <a href="{{site.baseurl}}/img/screens/{{ shot }}"><img src="{{site.baseurl}}/img/screens/{{ shot }}" class="screenshot alt" alt="{{ page.title }}" />
         </a>
