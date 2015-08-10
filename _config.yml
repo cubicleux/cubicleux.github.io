@@ -11,4 +11,4 @@ permalink: /:categories/:title/
 
 # Build settings
 markdown: kramdown
-paginate: 8
+paginate: 12
