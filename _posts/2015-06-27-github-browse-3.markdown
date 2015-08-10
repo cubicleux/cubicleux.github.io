@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "GitHub Trending"
+title:  "Trending"
 date:   2015-06-27 16:00:20
-categories: github
+categories: GitHub
 tags: browse list loading project
 screenshot: github-browse-3.jpg
-alt-screenshots: github-browse-3-loading.jpg 
+alt-screenshots: 
+- github-browse-3-loading.jpg 
 ---

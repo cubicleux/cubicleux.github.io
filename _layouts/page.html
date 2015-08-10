@@ -3,12 +3,21 @@ layout: default
 ---
 <div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
-
   <article class="post-content">
     {{ content }}
   </article>
 
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous"><i class="icon ion-ios-arrow-left"></i></a>
+  {% else %}
+
+  {% endif %}
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next"><i class="icon ion-ios-arrow-right"></i></a>
+  {% else %}
+
+  {% endif %}
+</div>
 </div>

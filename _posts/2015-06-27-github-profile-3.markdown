@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "GitHub User Activity"
+title:  "User Activity"
 date:   2015-06-27 16:00:20
-categories: github
+categories: GitHub
 tags: profile list empty activity-feed 
 screenshot: github-profile-3.jpg
-alt-screenshots: github-profile-3-empty.jpg 
+alt-screenshots: 
+- github-profile-3-empty.jpg 
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "GitHub Profile"
+title:  "Profile"
 date:   2015-06-27 16:00:20
-categories: github
+categories: GitHub
 tags: profile form
 screenshot: github-personal-settings-1.jpg
 ---

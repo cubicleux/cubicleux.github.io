@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "GitHub Create Issue"
+title:  "Create Issue"
 date:   2015-06-27 16:00:20
-categories: github
+categories: GitHub
 tags: create post form
-screenshot: github-create-7.jpg
+screenshot: 
+- github-create-7.jpg
 ---

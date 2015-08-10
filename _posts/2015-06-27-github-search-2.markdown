@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "GitHub Advanced Search"
+title:  "Advanced Search"
 date:   2015-06-27 16:00:20
-categories: github
+categories: GitHub
 tags: search form
 screenshot: github-search-2.jpg
 ---

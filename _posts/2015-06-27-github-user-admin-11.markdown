@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "GitHub Organization Teams Repositories"
+title:  "Organization Teams Repositories"
 date:   2015-06-27 16:00:20
-categories: github
+categories: GitHub
 tags: organization permissions groups
 screenshot: github-user-admin-11.jpg
-alt-screenshots: github-user-admin-11-empty.jpg
+alt-screenshots: 
+- github-user-admin-11-empty.jpg
 ---

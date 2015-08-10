@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "GitHub Organization Application Settings"
+title:  "Organization Application Settings"
 date:   2015-06-27 16:00:20
-categories: github
+categories: GitHub
 tags: account organization list settings empty
 screenshot: github-account-settings-3.jpg
-alt-screenshots: github-account-settings-3-empty.jpg
+alt-screenshots: 
+- github-account-settings-3-empty.jpg
 ---

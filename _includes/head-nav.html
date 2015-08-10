@@ -1,0 +1,47 @@
+<header class="site-header">
+    <a class="site-title" href="{{ site.baseurl }}/">
+        <h1>Cubicle UX</h1>
+    </a>
+</header>
+<nav class="site-nav">
+    <ul class="nav">
+        {% assign current = nil %}
+            {% if page.url contains "index" %}
+                {% assign current = 'current' %}
+            {% endif %}
+        <!-- TODO: Figure out how not to include paginated pages...
+        {% assign url = page.url %}
+        {% for page in site.pages %}
+
+
+            {% if page.title %}
+                <li><a class="page-link {{current}}" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        </li>
+            {% endif %}
+        {% endfor %}-->
+
+        <li><a class="page-link {{current}}" href="{{site.baseurl}}/">Latest</a>
+        </li>
+        <!--TODO Add Product Page <li><a class="page-link {{current}}" href="#">Product</a>-->
+        </li>
+        <li>
+            <a class="page-link contribute" href="https://github.com/cubicleux/cubicleux.github.io/issues/7">Contribute</a>
+        </li>
+        <li>
+            <a class="page-link about" href="https://github.com/cubicleux/cubicleux.github.io/">About</a>
+        </li>
+    </ul>
+</nav>
+
+<p class="tagline">{{ site.description }}</p>
+
+<!-- TODO Tags
+<nav class="tag-list">
+    <hr>
+    <ul class="tags">
+        {% for tag in site.tags %} {% assign t = tag | first %} {% assign posts = tag | last %}
+        <li><a href="">{{t | downcase | replace:" ","-" }} <small>{{ posts | size }}</small></a>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>-->

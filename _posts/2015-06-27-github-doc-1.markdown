@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "GitHub File"
+title:  "File"
 date:   2015-06-27 16:00:20
-categories: github
+categories: GitHub
 tags: project file 
 screenshot: github-doc-1.jpg
 ---
