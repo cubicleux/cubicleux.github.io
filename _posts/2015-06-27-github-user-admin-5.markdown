@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "GitHub Organization Invite Member"
+title:  "Organization Invite Member"
 date:   2015-06-27 16:00:20
-categories: github
+categories: GitHub
 tags: invite permissions alert
 screenshot: github-user-admin-5.jpg
 alt-screenshots: 

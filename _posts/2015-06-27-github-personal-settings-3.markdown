@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "GitHub Email Settings"
+title:  "Email Settings"
 date:   2015-06-27 16:00:20
-categories: github
+categories: GitHub
 tags: account profile settings error alert warning
 screenshot: github-personal-settings-3.jpg
 alt-screenshots: 

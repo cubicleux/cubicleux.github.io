@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "GitHub Two-Factor Authentication"
+title:  "Two-Factor Authentication"
 date:   2015-06-27 16:00:20
-categories: github
+categories: GitHub
 tags: login two-factor
 screenshot: github-login-2.jpg
 ---

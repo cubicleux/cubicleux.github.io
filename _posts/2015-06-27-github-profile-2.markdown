@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "GitHub User Repositories"
+title:  "User Repositories"
 date:   2015-06-27 16:00:20
-categories: github
+categories: GitHub
 tags: profile list empty dataviz 
 screenshot: github-profile-2.jpg
 alt-screenshots: 

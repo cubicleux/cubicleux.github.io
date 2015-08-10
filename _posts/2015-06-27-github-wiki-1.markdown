@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "GitHub Wiki Page"
+title:  "Wiki Page"
 date:   2015-06-27 16:00:20
-categories: github
+categories: GitHub
 tags: file post
 screenshot: github-wiki-1.jpg
 alt-screenshots: 

@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "GitHub Repo Issues"
+title:  "Repo Issues"
 date:   2015-06-27 16:00:20
-categories: github
+categories: GitHub
 tags: project list empty sort filter search
 screenshot: github-list-1.jpg
 alt-screenshot: 

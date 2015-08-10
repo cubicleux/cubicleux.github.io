@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "GitHub Unexpected Error"
+title:  "Unexpected Error"
 date:   2015-06-27 16:00:20
-categories: github
+categories: GitHub
 tags: error
 screenshot: github-error-2.jpg
 ---
