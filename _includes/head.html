@@ -6,6 +6,7 @@
     <title>{% if page.title == "Latest" %}{{ site.title }} | Enterprise design patterns &amp; inspiration{% else %}{% if page.title %}{{ page.title }}{% endif %} | {{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.0.4/jquery.imagesloaded.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.1/masonry.pkgd.min.js"></script>
 
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
@@ -17,8 +18,11 @@
 
     <script>
         $(function(){
-            $('.grid').masonry({
-                itemSelector: '.grid-item'
+            var posts = document.querySelectorAll('.grid-item');
+            imagesLoaded( posts, function() {
+                $('.grid').masonry({
+                    itemSelector: '.grid-item'
+                });
             });
         });
 
