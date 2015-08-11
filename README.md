@@ -4,6 +4,8 @@ Design patterns, resources and inspiration for enterprise experiences.
 ## Contributing
 This site is resource for the Enterprise UX community by the Enterprise UX community. As such it is Open Source + [Open Design] (http://designopen.org/). 
 
+We have a [Trello board](https://trello.com/b/QTHWtF9t/cubicle-ux) to track progress & improvements. Leave a comment in the [intro issue](https://github.com/cubicleux/cubicleux.github.io/issues/7) to get added.
+
 ### How can I help?
 Introduce yourself over [here](https://github.com/cubicleux/cubicleux.github.io/issues/7)!
 
